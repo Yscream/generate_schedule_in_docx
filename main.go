@@ -87,7 +87,7 @@ func schedule() {
 		cell.AddParagraph().AddRun().AddText("")
 
 	}
-	doc.SaveToFile("schedule.docx")
+	doc.SaveToFile("docx/schedule.docx")
 }
 
 func main() {
